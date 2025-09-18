@@ -1,6 +1,6 @@
 {
   "name": "@jsonforms/nuxt",
-  "version": "1.0.0",
+  "version": "3.6.0",
   "description": "Nuxt module for JSON Forms Vue 3",
   "repository": "https://github.com/eclipsesource/jsonforms",
   "bugs": "https://github.com/eclipsesource/jsonforms/issues",
@@ -36,12 +36,12 @@
     "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit"
   },
   "dependencies": {
-    "@jsonforms/core": "workspace:*",
-    "@jsonforms/vue": "workspace:*",
+    "@jsonforms/core": "3.6.0",
+    "@jsonforms/vue": "3.6.0",
     "@nuxt/kit": "^4.1.2"
   },
   "devDependencies": {
-    "@jsonforms/vue-vanilla": "workspace:*",
+    "@jsonforms/vue-vanilla": "3.6.0",
     "@nuxt/devtools": "^2.6.3",
     "@nuxt/eslint-config": "^1.9.0",
     "@nuxt/module-builder": "^1.0.2",
